@@ -14,15 +14,10 @@ Utils.py: Prepares CIFAR-10 data loaders and applies image preprocessing (resizi
 VisionTransformer_main.py: Main script for training and evaluating the model.
 TrainValidateWrapper.py: Wraps the Vision Transformer model for training and validation.
 Installation
-Clone the repository:
-bash
-Copy code
-git clone https://github.com/your-username/VisionTransformerXY.git
-cd VisionTransformerXY
+cd VisionTransformerGA
 Install the required dependencies:
 bash
-Copy code
-pip install torch torchvision einops tqdm
+pip install torch torchvision 
 Ensure GPU support is enabled for PyTorch if available.
 Dataset
 The model uses the CIFAR-10 dataset, which consists of 60,000 images across 10 classes. Images are resized to 224x224 and normalized for compatibility with the Vision Transformer architecture.
@@ -37,7 +32,6 @@ Training
 To train the model:
 
 bash
-Copy code
 python VisionTransformer_main.py
 Key parameters:
 
