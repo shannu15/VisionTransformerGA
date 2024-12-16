@@ -1,0 +1,5 @@
+torch==2.0.1       # PyTorch for model building and training
+torchvision==0.15.2 # Torchvision for datasets and transforms
+einops==0.6.1      # For tensor rearranging operations
+numpy==1.25.0      # For numerical computations
+tqdm==4.68.0       # For progress bar during training
